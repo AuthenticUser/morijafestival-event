@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tickets</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="programme.html">Programme</a>
+<a href="tickets.html">Tickets</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<h1>Festival Tickets</h1>
+
+<p>General Ticket: M150</p>
+<p>VIP Ticket: M300</p>
+
+<form method="POST" action="submit_ticket.php">
+
+Name:<br>
+<input type="text" name="name" required><br><br>
+
+Email:<br>
+<input type="email" name="email" required><br><br>
+
+Ticket Type:<br>
+
+<select name="ticketType" required>
+<option value="">-- Select Ticket Type --</option>
+<option value="general">General Ticket</option>
+<option value="vip">VIP Ticket</option>
+</select>
+
+<br><br>
+
+<input type="submit" value="Register">
+
+</form>
+
+</body>
+</html>
