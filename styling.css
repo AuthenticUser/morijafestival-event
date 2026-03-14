@@ -23,3 +23,11 @@ padding:10px;
 img{
 margin-top:20px
 }
+banner{
+  background-image:url("festival.jpg");
+  background-position:center;
+  height:400px;
+  color:white;
+  text-align:center;
+  padding-top:150px;
+}
