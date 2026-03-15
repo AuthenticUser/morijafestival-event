@@ -38,15 +38,26 @@ th,td{
   text-align:center;
 }
 footer{
-  background:#2c3e50;
+  background:#111;
   color:white;
   text-align:center;
-  padding:10px;
+  padding:20px;
   margin-top20px;
 }
 form{
   background:white;
   padding:20px;
-  width:300px:
-margin:auto;
+  width:300px;
+  margin:auto;
+}
+.events{
+  display:flex;
+  gap:20px;
+  padding:40px;
+}
+.card{
+  background:#f4f4f4;
+  padding:20px;
+  border-radius:20px;
+  box-shadow:0 4px rgba(0,0,0,0,2);
 }
